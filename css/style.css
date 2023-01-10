@@ -1,0 +1,183 @@
+*{
+    margin: 0%; padding: 0%;
+}
+html{
+    font-size: 16px;
+    color: rgb(29, 21, 21);
+    font-family:'Zen Old Mincho',serif;
+    background-color: rgb(114, 45, 45);
+}
+header{
+    height: 100vh;
+    background-image:linear-gradient(rgba(4, 5, 3, 0.912),rgba(0, 0, 0, 0.726)), url(../images/u.jpg);
+    background-position: center;
+    background-size: cover;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    
+    height: 100px;
+    margin-top: 10px;
+    margin-left: 10px;
+
+}  
+
+.main-nav li{
+    display:inline-block;
+    margin-left: 20px;
+
+}
+.main-nav li a{
+    color: rgb(252, 252, 252);
+    text-decoration: none;
+    margin-right: 30px;
+}
+.main-nav li a:hover{
+    color: rgb(58, 15, 7);
+    text-decoration: underline;
+}
+.hero-box{
+    position: absolute;
+    top: 40%;
+    left: 20%;
+
+
+}
+h1{
+    color: white;
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    letter-spacing: 3px;
+    word-spacing: 5px;
+    font-weight: 400;
+}
+.btn{
+    border:solid 2px rgb(20, 5, 5);
+    margin-right: 15px;
+    padding: 7px 15px;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    background-color: rgba(95, 25, 25, 0.63)  ;
+    
+    
+}
+.btn:hover{
+   
+    color: rgb(134, 3, 47);
+    background-color: pink ;
+    
+}
+section{
+    padding:40px 0px;
+}
+h2{
+    font-size: 1.6rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    word-spacing:5px;
+    text-align: center;
+    color: rgb(27, 20, 20);
+    background-color: rgb(243, 242, 242) ;
+}
+hr{
+    width: 680px;
+    margin: 20px auto;
+    color: rgb(228, 39, 39);
+    
+
+    border-radius: 1px;
+}
+
+.features img{ 
+    width: 20px;
+}
+.row{
+    margin-left: 13%;
+
+}
+
+.btn1{
+    border:snow 3px brown;
+    margin-left: 30%;
+    margin-top: 20px;
+    padding: 9px 100px;
+    border-radius: 5px;
+    color: white;
+    text-decoration:teal;
+    background-color: rgb(37, 1, 7);
+    
+
+}
+.btn1:hover{
+   
+    color: rgb(134, 3, 47);
+    background-color: pink;
+    
+}
+footer{
+    padding: 50px 100px;
+    background-color: rgb(54, 8, 8);
+}
+
+footer p{
+    color: #fff;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.footer-nav{
+   list-style: none;
+}
+
+.footer-nav li{
+display: inline-block;
+margin-left: 10px;
+
+}
+
+.footer-nav li a{
+color: white;
+text-decoration: none;
+
+}
+
+.footer-nav li a:hover{
+color: rgb(94, 17, 42);
+text-decoration: underline;
+
+}
+.map{
+    margin-left: 12px;
+   
+}
+
+
+.social-nav{
+    list-style: none;
+    float: right;
+    }
+    
+    .social-nav li{
+    display: inline-block;
+    margin-left: 30px;
+    
+    }
+    
+    .social-nav li a{
+    color: white;
+    text-decoration: none;
+    
+    }
+    
+    .social-nav li a:hover{
+    color: rgb(63, 62, 145);
+    text-decoration: underline;
+    
+    }
